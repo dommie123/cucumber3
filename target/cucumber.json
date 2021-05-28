@@ -1,0 +1,256 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1936607300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Send information via the Contact Us form",
+        "description": "",
+        "id": "a-user-will-be-able-to-contact-the-site-owner-or-management;send-information-via-the-contact-us-form",
+        "after": [
+          {
+            "result": {
+              "duration": 747686200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.tearDownAndScreenshotOnFailure(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1815141200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "A user clicks the Contact Us link",
+            "match": {
+              "location": "ContactUsSteps.a_user_clicks_the_Contact_Us_link()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 175418200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user enters their first name",
+            "match": {
+              "location": "ContactUsSteps.the_user_enters_their_first_name(String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Jane",
+                  "John",
+                  "Dom",
+                  "Samantha"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 136055000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user enters their last name",
+            "match": {
+              "location": "ContactUsSteps.the_user_enters_their_last_name(String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Doe",
+                  "Smith",
+                  "Wiles",
+                  "Parker"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141030800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user enters a valid email address",
+            "match": {
+              "location": "ContactUsSteps.the_user_enters_a_valid_email_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125577100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user enters some comments",
+            "match": {
+              "location": "ContactUsSteps.the_user_enters_some_comments(String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "It\u0027s a comment",
+                  "This is a comment",
+                  "I am commenting on what a lovely day this is"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1714319300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user clicks the Submit button",
+            "match": {
+              "location": "ContactUsSteps.the_user_clicks_the_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50415200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The user should have their data sent successfully to the site",
+            "match": {
+              "location": "ContactUsSteps.the_user_should_have_their_data_sent_successfully_to_the_site()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "A user will be able to contact the site owner or management",
+    "description": "team using a form. They will enter their information as well as a message,\r\nthen submit the form to send the information to the server.",
+    "id": "a-user-will-be-able-to-contact-the-site-owner-or-management",
+    "keyword": "Feature",
+    "uri": "ContactUs.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1302513300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Navigate to the Store page and validate a promo code alert pops up.",
+        "description": "",
+        "id": "as-a-user,-i-can-make-purchases-to-the-site-via-a-store-page.;navigate-to-the-store-page-and-validate-a-promo-code-alert-pops-up.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 735038800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.tearDownAndScreenshotOnFailure(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2138326000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "A user navigates to the \"http://www.webdriveruniversity.com/Page-Object-Model/products.html\" website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.webdriveruniversity.com/Page-Object-Model/products.html",
+                  "offset": 25
+                }
+              ],
+              "location": "ProductsSteps.a_user_navigates_to_the_website(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 105895200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user clicks the button \"special-offers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "special-offers",
+                  "offset": 28
+                }
+              ],
+              "location": "ProductsSteps.the_user_clicks_the_button(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1762977000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user should receive an alert concerning a Special Offer",
+            "match": {
+              "location": "ProductsSteps.the_user_should_receive_an_alert_concerning_a_Special_Offer()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I can make purchases to the site via a Store Page.",
+    "description": "",
+    "id": "as-a-user,-i-can-make-purchases-to-the-site-via-a-store-page.",
+    "keyword": "Feature",
+    "uri": "Products.feature"
+  }
+]
